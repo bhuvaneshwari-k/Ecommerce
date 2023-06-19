@@ -1,0 +1,27 @@
+.navbar{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+a{
+ text-decoration:none;
+ color:rgb(163, 22, 163);
+}
+input{
+    padding: 5px;
+    width:300px;
+
+}
+.cartbtn{
+    background-color: rgb(163, 22, 163);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+}
+.cartbtn:hover {
+    background-color: rgb(16, 136, 72);
+  }
